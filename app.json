@@ -1,0 +1,40 @@
+
+{
+  "expo": {
+    "name": "candyApp",
+    "slug": "candyapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "@react-native-vector-icons/fontawesome-free-solid",
+      "expo-notifications",
+      "expo-font",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#183C29"
+        }
+      ]
+    ],
+    "owner": "pardeep3344",
+    "android": {
+      "package": "com.pardeep3344.candyapp",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#183C29"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3827611f-5ae1-4732-87c4-010428e3e769"
+      }
+    }
+  }
+}
